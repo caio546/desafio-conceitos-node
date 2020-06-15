@@ -60,7 +60,18 @@ app.delete("/repositories/:id", (request, response) => {
 });
 
 app.post("/repositories/:id/like", (request, response) => {
-  // TODO
+  const {id} = request.params;
+
+  repositoryIndex = repository.findIndex(id);
+
+  const repository = {
+    ...repositories[repositoryIndex],
+    likes: repositories[repositoryIndex].likes
+  }
+
+  repositories[repositoryIndex] = repository;
+
+  return response.json(repository);
 });
 
 module.exports = app;
