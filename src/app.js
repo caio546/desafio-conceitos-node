@@ -50,7 +50,13 @@ app.put("/repositories/:id", (request, response) => {
 });
 
 app.delete("/repositories/:id", (request, response) => {
-  // TODO
+  const {id} = request.params;
+
+  repositoryIndex = repository.findIndex(id);
+
+  repositories.split(repositoryIndex, 1);
+
+  return response.send();
 });
 
 app.post("/repositories/:id/like", (request, response) => {
