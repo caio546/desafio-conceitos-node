@@ -11,7 +11,7 @@
 ## Tabela de Conteúdos
 
 - [Instalação](#instalação)
--[Tecnologias](#tecnologias)
+- [Tecnologias](#tecnologias)
 - [Contribuindo](#contribuindo)
 - [Licença](#licença)
 
