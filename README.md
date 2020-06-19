@@ -6,7 +6,7 @@
 
 > Aplicação desenvolvida como desafio para treinar conceitos sobre Node.js.
 
-![License](https://img.shields.io/github/license/caio546/desafio-conceitos-node) ![AUR](https://img.shields.io/badge/-Web-%231a1a1a)
+![License](https://img.shields.io/github/license/caio546/desafio-conceitos-node)
 
 ## Tabela de Conteúdos
 
